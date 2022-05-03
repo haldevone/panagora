@@ -1,0 +1,29 @@
+{
+  "name": "codetest",
+  "version": "2.0.0",
+  "license": "UNLICENSED",
+  "private": true,
+  "scripts": {
+    "start": "webpack serve --mode=development",
+    "build": "webpack --mode=production"
+  },
+  "devDependencies": {
+    "copy-webpack-plugin": "^7.0.0",
+    "css-loader": "^5.2.7",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^1.6.2",
+    "sass": "^1.51.0",
+    "sass-loader": "^10.2.1",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.72.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^3.11.3"
+  },
+  "description": "## What's here?",
+  "main": "webpack.config.js",
+  "author": "",
+  "dependencies": {
+    "path-browserify": "^1.0.1",
+    "util": "^0.12.4"
+  }
+}

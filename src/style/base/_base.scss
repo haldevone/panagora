@@ -1,0 +1,36 @@
+@import "../base/variables";
+
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+ text-align: center;
+ padding-top: 2.5rem;
+
+    & .header-btns{
+        gap: 1rem;
+        margin: 2rem 0;
+
+        & h3{
+            &:hover{
+                color: $color-accent;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+.hide{
+    display: none;
+}
+
+.top{
+    padding-top: 1rem;
+}
+
+
+
