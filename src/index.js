@@ -8,7 +8,6 @@ fetch("./data/products.json")
     .then(data => {
         let result = "";
         data.map(item => {
-        // console.log(item.name)
         result += `
         <li>
             <img class="select-btn" role="button" onclick="homeImgClicked(${item.id})" id=${item.id} src=${item.thumbnail} />
@@ -16,7 +15,6 @@ fetch("./data/products.json")
             <p>${item.price} ${item.currency}</p>
         </li>`
         })
-        // console.log(productContainer)
         productContainer.innerHTML = result;
     })
 }
@@ -28,11 +26,9 @@ const getProduct = (id) => {
 
 function homeImgClicked(id){
     let prodHome = document.getElementById("products-toogle");
-    // prodHome.classList.remove("show");
     prodHome.classList.add("hide");
     let prodItem = document.getElementById("item-toogle");
     prodItem.classList.remove("hide");
-    // prodItem.classList.add("show");
     productsClicked(id);
 }
 

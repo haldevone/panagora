@@ -23,6 +23,15 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
+@media screen and (max-width: 600px) {
+  h1, h2 {
+    font-size: 160%;
+  }
+  p {
+    font-size: 90%;
+  }
+}
+
 *,
 *::before,
 *::after {
@@ -76,6 +85,15 @@ p {
 
 body {
   font-family: 'Poppins', sans-serif;
+}
+
+@media screen and (max-width: 600px) {
+  h1, h2 {
+    font-size: 160%;
+  }
+  p {
+    font-size: 90%;
+  }
 }
 
 .item-main .item-container {
@@ -168,7 +186,7 @@ body {
 }
 
 .item-main .item-container .item-description {
-  padding-top: 1rem;
+  padding-top: 1rem 0 2rem 0;
 }
 
 .item-main .item-container .item-description h3 {
@@ -284,6 +302,15 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
+@media screen and (max-width: 600px) {
+  h1, h2 {
+    font-size: 160%;
+  }
+  p {
+    font-size: 90%;
+  }
+}
+
 .modal {
   min-width: 31rem;
   min-height: 20rem;
@@ -311,5 +338,11 @@ body {
   width: 15rem;
   margin: 0 auto;
   padding: 2rem 0;
+}
+
+@media screen and (max-width: 600px) {
+  .modal {
+    min-width: 20rem;
+  }
 }
 /*# sourceMappingURL=index.css.map */
